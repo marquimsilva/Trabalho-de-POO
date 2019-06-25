@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="201.0" prefWidth="265.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controll.FXMLTelaAdmController">
+   <children>
+      <MenuBar layoutX="15.0" layoutY="8.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="32.0" prefWidth="235.0" AnchorPane.bottomAnchor="189.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="8.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#btSair" text="Sair" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Cadastrar">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#cadProduto" text="Produto" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Mostrar Todos">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#mostraProduto" text="Produtos" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Text fontSmoothingType="LCD" layoutX="20.0" layoutY="85.0" strokeMiterLimit="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oque você deseja ?" wrappingWidth="224.13671875" AnchorPane.bottomAnchor="109.9765625" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.86328125" AnchorPane.topAnchor="59.1015625">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#ff0101" layoutX="75.0" layoutY="106.0" opacity="0.37" strokeType="OUTSIDE" strokeWidth="0.0" text="Seja Bem Vindo !" wrappingWidth="147.13671875" AnchorPane.bottomAnchor="109.9765625" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="20.86328125" AnchorPane.topAnchor="100.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

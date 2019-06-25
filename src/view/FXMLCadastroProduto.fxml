@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="261.0" prefWidth="416.0" style="-fx-background-color: yellow;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controll.FXMLCadastroProduto">
+   <children>
+      <Label layoutX="79.0" layoutY="65.0" text="Produto : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="79.0" layoutY="28.0" text="Codigo do Produto :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TxtProduto" layoutX="142.0" layoutY="60.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="TxtCod" layoutX="213.0" layoutY="25.0" prefHeight="25.0" prefWidth="85.0" />
+      <Label layoutX="82.0" layoutY="101.0" text="Valor : " />
+      <TextField fx:id="txtValor" layoutX="119.0" layoutY="97.0" />
+      <Button layoutX="67.0" layoutY="151.0" mnemonicParsing="false" onAction="#salvar" prefHeight="25.0" prefWidth="163.0" text="Cadastrar" />
+      <Button layoutX="256.0" layoutY="151.0" mnemonicParsing="false" onAction="#btVoltar" text="Voltar" />
+   </children>
+</AnchorPane>
